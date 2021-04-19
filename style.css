@@ -233,20 +233,22 @@ h1{
 }
 
 .main_text1 > .service{
-    display: flex;
-    width : 1280px;
+    /*width : 1280px;*/
     height : 350px;
     margin-top: 12px;
-    margin-left: 90px;
+    margin-left: 140px;
+    display: flex;
     text-align: center;
+    width: 85%;
 }
 
 .main_text1 > .service > .food_photo{
-    flex: 4;
+    flex: 1;
 }
 
 .main_text1 > .service > .cont{
-    flex: 6;
+    text-align: center;
+    flex: 1;
 }
 
 .main_text1> .service > .food_photo > img {
